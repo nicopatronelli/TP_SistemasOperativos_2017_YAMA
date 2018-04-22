@@ -1,0 +1,16 @@
+@ Lista todos los archivos del directorio actual, incluyendos los archivos ocultos:
+la
+
+@ Copia el archivo file a la ubicación destino
+cp file destino
+
+@ Mueve (corta y pega) el archivo file a la ubicación destino
+mv file destino
+
+@ SIGUSR1 = -10 (para replanificar el algoritmo de balanceo); SIGUSR2 = -12 (para cambiar el retardo de planificacion)
+kill -12 pidDelProceso 
+kill -10 pidDelProceso
+
+@htonp para ver el estado actual de los procesos en relacion al consumo y su pid
+sudo apt-get install htop
+
