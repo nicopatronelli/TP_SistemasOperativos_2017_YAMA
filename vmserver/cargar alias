@@ -1,4 +1,0 @@
-> Para cargar las alias del archivo alias.txt (sólo válido para la sesión actual) ingresar la siguiente línea y pulsar Enter
-en este directorio: 
-
-. ./alias.txt

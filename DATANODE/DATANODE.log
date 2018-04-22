@@ -1,6 +1,0 @@
-[TRACE] 10:03:51:203 DATANODE/(22680:22680): La ip de FILE_SYSTEM es: 127.0.0.1
-[TRACE] 10:03:53:764 DATANODE/(22680:22680): El puerto de FILE_SYSTEM es: 9001
-[TRACE] 10:03:54:807 DATANODE/(22680:22680): Este Nodo es el NODO1
-[TRACE] 10:03:57:185 DATANODE/(22680:22680): La RUTA de archivo DATA.BIN de este Nodo es /home/utnso/git/tp-2017-2c-Mandale-Fruta/DATANODE/Debug/data.bin
-[TRACE] 10:03:59:681 DATANODE/(22680:22680): El tamaño del archivo DATA.BIN es de 10 MiB
-[TRACE] 10:04:04:306 DATANODE/(22680:22680): El puerto donde el WORKER de este nodo escuchará procesos MASTER es el 5050
