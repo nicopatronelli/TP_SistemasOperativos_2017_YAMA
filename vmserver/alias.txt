@@ -1,0 +1,8 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/utnso/git/tp-2017-2c-Mandale-Fruta/SHARED/Debug
+export LC_ALL=C
+alias tp='cd /home/utnso/git/tp-2017-2c-Mandale-Fruta'
+alias MASTER='cd /home/utnso/git/tp-2017-2c-Mandale-Fruta/MASTER/Debug'
+alias WORKER='cd /home/utnso/git/tp-2017-2c-Mandale-Fruta/WORKER/Debug'
+alias DATANODE='cd /home/utnso/git/tp-2017-2c-Mandale-Fruta/DATANODE/Debug'
+alias YAMA='cd /home/utnso/git/tp-2017-2c-Mandale-Fruta/YAMA/Debug'
+alias FS='cd /home/utnso/git/tp-2017-2c-Mandale-Fruta/FILE_SYSTEM/Debug'

@@ -1,0 +1,31 @@
+		//PRUEBA- BORRADOR
+		
+		set_bloque(databin_mapeado, 2, "Este, es, el, bloque, 2");
+		set_bloque(databin_mapeado, 0, "Este, es, el, bloque, 0");
+		set_bloque(databin_mapeado, 5, "Este, es, el, bloque 5");
+
+		aplicar_transformacion(2, databin_mapeado, "/home/utnso/git/tp-2017-2c-Mandale-Fruta/WORKER/scripts/script_transformacion.py", "bloque2_transformado");
+
+		exit(-1);
+
+		void* bloque_2 = get_bloque(databin_mapeado, 2);
+		void* bloque_0 = get_bloque(databin_mapeado, 0);
+		void* bloque_5 = get_bloque(databin_mapeado, 5);
+
+		printf("El contenido del bloque 0 es %s\n", (char*)bloque_0);
+		printf("El contenido del bloque 2 es %s\n", (char*)bloque_2);
+		printf("El contenido del bloque 5 es %s\n", (char*)bloque_5);
+
+		char* ruta_bloque_archivo_2 = bloque_a_archivo(bloque_2, 2);
+		free(ruta_bloque_archivo_2);
+
+		//system("cat bloque_1.bin | ./transformador.sh > resul_trans_bloque_1.bin");
+
+		//FILE* file = popen("cat archivo_a_procesar.csv | ./transformador.sh > resul_trans.bin", "r");
+		//pclose(file);
+
+		liberar_bloque(bloque_0);
+		liberar_bloque(bloque_2);
+		liberar_bloque(bloque_5);
+
+		exit(-1);

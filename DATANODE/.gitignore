@@ -1,0 +1,13 @@
+# Ignoro archivos de eclipse
+.cproject
+.project
+/Release/
+
+# Ignoro el archivo de log y el data.bin
+*.log
+data.bin
+
+# Ignoro los binarios (ejecutables)
+Debug/DATANODE
+src/DATANODE
+/Debug/

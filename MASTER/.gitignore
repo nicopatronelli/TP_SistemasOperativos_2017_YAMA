@@ -1,0 +1,8 @@
+/Release/
+MASTER.log
+.project
+.cproject
+src/MASTER
+Debug/MASTER
+Debug/MASTER.log
+/Debug/

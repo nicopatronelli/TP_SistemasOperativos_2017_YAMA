@@ -1,0 +1,11 @@
+.cproject
+.project
+WORKER.log
+Debug/WORKER.log
+Debug/WORKER
+Debug/temporales
+scripts/
+src/WORKER
+Debug/bloque_*
+Debug/script_*
+Debug/tmp_*

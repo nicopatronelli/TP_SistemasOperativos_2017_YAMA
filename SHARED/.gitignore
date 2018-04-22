@@ -1,0 +1,7 @@
+/Release/
+
+#Ignorar los siguientes archivos generados por Eclipse
+.cproject		 
+.project
+shared/libSHARED
+Debug/libSHARED.so

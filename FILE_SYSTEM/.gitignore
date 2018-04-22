@@ -1,0 +1,10 @@
+/Release/
+*.log
+/metadata/
+.project
+.cproject
+Debug/FILE_SYSTEM
+metadata
+src/FILE_SYSTEM
+
+/Debug/

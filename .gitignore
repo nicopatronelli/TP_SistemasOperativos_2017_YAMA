@@ -50,3 +50,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Otros 
+README.md
+
+#Carpetas para pruebas
+/DATANODE2
+/DATANODE3
+/DATANODE4
+/WORKER2
+/WORKER3
+/WORKER4
+pruebas
